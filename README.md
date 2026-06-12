@@ -71,8 +71,8 @@ sudo apt update && sudo apt install -y docker.io docker-compose-plugin
 sudo usermod -aG docker ubuntu
 
 # Clone and run
-git clone https://github.com/YOUR_USERNAME/BSCS-2022-001-devops-project ~/devops-project
-cd ~/devops-project
+git clone https://github.com/bscs2312381-sudo/2312381-devops-project.git ~/devops-project
+cd ~/2312381-devops-project
 cp .env.example .env   # Edit with production values
 docker compose -f docker-compose.prod.yml up -d --build
 ```
